@@ -4,7 +4,7 @@
 ** theano tutorial
    - [Index] :: http://deeplearning.net/software/theano/tutorial/index.html#tutorial
 *** TODO NumPy refresher
-    - [Context] :: 
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/numpy.html
     - [100 numpy exercises] :: https://github.com/rougier/numpy-100
 *** TODO Baby Steps - Algebra
     - [Context] :: http://deeplearning.net/software/theano/tutorial/adding.html
