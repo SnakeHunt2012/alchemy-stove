@@ -1,0 +1,106 @@
+# -*- coding: utf-8 -*-
+
+* Theano
+** theano tutorial
+   - [Index] :: http://deeplearning.net/software/theano/tutorial/index.html#tutorial
+*** TODO NumPy refresher
+    - [Context] :: 
+    - [100 numpy exercises] :: https://github.com/rougier/numpy-100
+*** TODO Baby Steps - Algebra
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/adding.html
+*** TODO More Examples
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/examples.html
+    - [Example - Logistic Regression] :: http://deeplearning.net/software/theano/tutorial/examples.html#a-real-example-logistic-regression
+*** TODO Graph Structures
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/symbolic_graphs.html
+*** TODO Printing/Drawing Theano graphs
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/printing_drawing.html
+*** TODO Derivatives in Theano
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/gradients.html
+*** TODO Configuration Settings and Compiling Modes
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/modes.html
+    - [Exercise - Consider the Logistic Regression] :: http://deeplearning.net/software/theano/tutorial/modes.html#exercise
+*** TODO Loading and Saving
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/loading_and_saving.html
+*** TODO Conditions
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/conditions.html
+*** TODO Loop
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/loop.html
+*** TODO Sparse
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/sparse.html
+*** TODO Using the GPU
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html
+    - [Example - Returning a Handle to Device-Allocated Data] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#returning-a-handle-to-device-allocated-data
+    - [Exercise - Consider again the Logistic Regression] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#exercise
+    - [Example - Testing Theano with GPU] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#id1
+    - [Returning a Handle to Device-Allocated Data] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#id2
+    - [Example - Learning to Program with PyCUDA] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#learning-to-program-with-pycuda
+    - [Exercise - Theano + PyCUDA] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html#id5
+*** TODO Using multiple GPUs
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/using_multi_gpu.html
+*** TODO PyCUDA/CUDAMat/Gnumpy compatibility
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/gpu_data_convert.html
+    - [Example - Compiling with PyCUDA] :: http://deeplearning.net/software/theano/tutorial/gpu_data_convert.html#compiling-with-pycuda
+    - [Example - Theano Op using a PyCUDA function] :: http://deeplearning.net/software/theano/tutorial/gpu_data_convert.html#theano-op-using-a-pycuda-function
+*** TODO Understanding Memory Aliasing for Speed and Correctness
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/aliasing.html
+    - [Example - Borrowing when Constructing Function Objects] :: http://deeplearning.net/software/theano/tutorial/aliasing.html#borrowing-when-constructing-function-objects
+*** TODO How Shape Information is Handled by Theano
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/shape_info.html
+*** TODO Debugging Theano: FAQ and Troubleshooting
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/debug_faq.html
+    - [Exmaple - Using Test Values] :: http://deeplearning.net/software/theano/tutorial/debug_faq.html#using-test-values
+*** TODO Dealing with NaNs
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/nan_tutorial.html
+*** TODO Profiling Theano function
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/profiling.html
+*** TODO Extending Theano
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/extending_theano.html
+    - [Example - Op Example] :: http://deeplearning.net/software/theano/tutorial/extending_theano.html#op-example
+    - [Example - Example for properties of a Op] :: http://deeplearning.net/software/theano/tutorial/extending_theano.html#example-for-properties-of-a-op
+    - [Example - How To Test it] :: http://deeplearning.net/software/theano/tutorial/extending_theano.html#how-to-test-it
+*** TODO Extending Theano with a C Op
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/extending_theano_c.html
+    - [Example - Simple C Op example] :: http://deeplearning.net/software/theano/tutorial/extending_theano_c.html#simple-c-op-example
+    - [Example - More complex C Op example] :: http://deeplearning.net/software/theano/tutorial/extending_theano_c.html#simple-c-op-example
+    - [Example - Alternate way of defining C Ops] :: http://deeplearning.net/software/theano/tutorial/extending_theano_c.html#simple-c-op-example
+*** TODO Python Memory Management
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/python-memory-management.html
+*** TODO Multi cores support in Theano
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/multi_cores.html
+*** TODO Frequently Asked Questions
+    - [Context] :: http://deeplearning.net/software/theano/tutorial/faq_tutorial.html
+** supervised learning algorithms
+   - [Index] :: http://www.deeplearning.net/tutorial/
+*** TODO Logistic Regression - using Theano for something simple
+    - [Classifying MNIST digits using Logistic Regression] :: http://www.deeplearning.net/tutorial/logreg.html#logreg
+*** TODO Multilayer perceptron - introduction to layers
+    - [Multilayer Perceptron] :: http://www.deeplearning.net/tutorial/mlp.html#mlp
+    - [Theano Tutorial - Example: MLP] :: http://nbviewer.ipython.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb
+*** TODO Deep Convolutional Network - a simplified version of LeNet5
+    - [Convolutional Neural Networks (LeNet)] :: http://www.deeplearning.net/tutorial/lenet.html#lenet
+** unsupervised and semi-supervised learning algorithms
+   - [Index] :: http://www.deeplearning.net/tutorial/
+*** TODO Auto Encoders, Denoising Autoencoders - description of autoencoders
+    - [Denoising Autoencoders (dA)] :: http://www.deeplearning.net/tutorial/dA.html#daa
+*** TODO Stacked Denoising Auto-Encoders - easy steps into unsupervised pre-training for deep nets
+    - [Stacked Denoising Autoencoders (SdA)] :: http://www.deeplearning.net/tutorial/SdA.html#sda
+*** TODO Restricted Boltzmann Machines - single layer generative RBM model
+    - [Restricted Boltzmann Machines (RBM)] :: http://www.deeplearning.net/tutorial/rbm.html#rbm
+*** TODO Deep Belief Networks - unsupervised generative pre-training of stacked RBMs followed by supervised fine-tuning
+    - [Deep Belief Networks] :: http://www.deeplearning.net/tutorial/DBN.html#dbn
+** Building towards including the mcRBM model, we have a new tutorial on sampling from energy models
+   - [Index] :: http://www.deeplearning.net/tutorial/
+*** TODO HMC Sampling - hybrid (aka Hamiltonian) Monte-Carlo sampling with scan()
+    - [Hybrid Monte-Carlo Sampling] :: http://www.deeplearning.net/tutorial/hmc.html#hmc
+*** TODO Contractive auto-encoders code - There is some basic doc in the code.
+    - [lisa-lab/DeepLearningTutorials] :: https://github.com/lisa-lab/DeepLearningTutorials/blob/master/code/cA.py
+*** TODO Semantic Parsing of Speech using Recurrent Net
+    - [Recurrent Neural Networks with Word Embeddings] :: http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu
+*** TODO LSTM network
+    - [LSTM Networks for Sentiment Analysis] :: http://www.deeplearning.net/tutorial/lstm.html#lstm
+*** TODO Modeling and generating sequences of polyphonic music
+    - [Modeling and generating sequences of polyphonic music with the RNN-RBM] :: http://www.deeplearning.net/tutorial/rnnrbm.html#rnnrbm
+
+
+* Torch
