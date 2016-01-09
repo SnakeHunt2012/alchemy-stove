@@ -6,16 +6,16 @@
 *** TODO NumPy refresher
     - [Context] :: http://deeplearning.net/software/theano/tutorial/numpy.html
     - [100 numpy exercises] :: https://github.com/rougier/numpy-100
-*** TODO Baby Steps - Algebra
+*** DONE Baby Steps - Algebra
     - [Context] :: http://deeplearning.net/software/theano/tutorial/adding.html
-*** TODO More Examples
+*** DONE More Examples
     - [Context] :: http://deeplearning.net/software/theano/tutorial/examples.html
     - [Example - Logistic Regression] :: http://deeplearning.net/software/theano/tutorial/examples.html#a-real-example-logistic-regression
-*** TODO Graph Structures
+*** DONE Graph Structures
     - [Context] :: http://deeplearning.net/software/theano/tutorial/symbolic_graphs.html
-*** TODO Printing/Drawing Theano graphs
+*** DONE Printing/Drawing Theano graphs
     - [Context] :: http://deeplearning.net/software/theano/tutorial/printing_drawing.html
-*** TODO Derivatives in Theano
+*** DONE Derivatives in Theano
     - [Context] :: http://deeplearning.net/software/theano/tutorial/gradients.html
 *** TODO Configuration Settings and Compiling Modes
     - [Context] :: http://deeplearning.net/software/theano/tutorial/modes.html
