@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 
+from numpy import ones
+from numpy import random
+from numpy import asarray
+from theano import grad
 from theano import config
 from theano import shared
-from theano import grad
 from theano import function
-from theano.tensor import dmatrix
-from theano.tensor import dvector
 from theano.tensor import exp
 from theano.tensor import log
 from theano.tensor import dot
 from theano.tensor import cast
-from numpy import asarray
-from numpy import random
-from numpy import ones
+from theano.tensor import dmatrix
+from theano.tensor import dvector
 
 config.profile = True
 config.floxtX = "float32"
