@@ -14,6 +14,7 @@ from numpy import asarray
 from numpy import random
 from numpy import ones
 
+config.profile = True
 config.floxtX = "float32"
 
 rng = random
@@ -45,9 +46,11 @@ grad_w, grad_b = grad(cost, [w, b])
 
 train = function(inputs = [X, y],
                  outputs = [pred, proba, loss],
-                 updates = [(w, w - 0.1 * grad_w), (b, b - 0.1 * grad_b)])
+                 updates = [(w, w - 0.1 * grad_w), (b, b - 0.1 * grad_b)],
+                 profile = True)
 test = function(inputs = [X],
-                outputs = pred)
+                outputs = pred,
+                profile = True)
 
 for i in range(steps):
     pred_value, proba_value, loss_value = train(D[0], D[1])
@@ -62,5 +65,3 @@ elif any([x.op.__class__.__name__ in ["GpuGemv", "GpuGemm"] for x in train.maker
     print("Used the cpu")
 else:
     print("ERROR, not able to tell if theano used the cpu or the gpu")
-
-
