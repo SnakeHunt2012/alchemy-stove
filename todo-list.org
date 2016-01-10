@@ -17,12 +17,12 @@
     - [Context] :: http://deeplearning.net/software/theano/tutorial/printing_drawing.html
 *** DONE Derivatives in Theano
     - [Context] :: http://deeplearning.net/software/theano/tutorial/gradients.html
-*** TODO Configuration Settings and Compiling Modes
+*** DONE Configuration Settings and Compiling Modes
     - [Context] :: http://deeplearning.net/software/theano/tutorial/modes.html
     - [Exercise - Consider the Logistic Regression] :: http://deeplearning.net/software/theano/tutorial/modes.html#exercise
-*** TODO Loading and Saving
+*** DONE Loading and Saving
     - [Context] :: http://deeplearning.net/software/theano/tutorial/loading_and_saving.html
-*** TODO Conditions
+*** DONE Conditions
     - [Context] :: http://deeplearning.net/software/theano/tutorial/conditions.html
 *** TODO Loop
     - [Context] :: http://deeplearning.net/software/theano/tutorial/loop.html
