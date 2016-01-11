@@ -24,7 +24,7 @@
     - [Context] :: http://deeplearning.net/software/theano/tutorial/loading_and_saving.html
 *** DONE Conditions
     - [Context] :: http://deeplearning.net/software/theano/tutorial/conditions.html
-*** TODO Loop
+*** DONE Loop
     - [Context] :: http://deeplearning.net/software/theano/tutorial/loop.html
     - [Example] :: Computing tanh(x(t).dot(W) + b) elementwise
     - [Example] :: Computing the sequence x(t) = tanh(x(t - 1).dot(W) + y(t).dot(U) + p(T - t).dot(V))
