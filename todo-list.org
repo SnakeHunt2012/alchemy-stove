@@ -26,6 +26,18 @@
     - [Context] :: http://deeplearning.net/software/theano/tutorial/conditions.html
 *** TODO Loop
     - [Context] :: http://deeplearning.net/software/theano/tutorial/loop.html
+    - [Example] :: Computing tanh(x(t).dot(W) + b) elementwise
+    - [Example] :: Computing the sequence x(t) = tanh(x(t - 1).dot(W) + y(t).dot(U) + p(T - t).dot(V))
+    - [Example] :: Computing norms of lines of X
+    - [Example] :: Computing norms of columns of X
+    - [Example] :: Computing trace of X
+    - [Example] :: Computing the sequence x(t) = x(t - 2).dot(U) + x(t - 1).dot(V) + tanh(x(t - 1).dot(W) + b)
+    - [Example] :: Computing the Jacobian of y = tanh(v.dot(A)) wrt x
+    - [Example] :: Accumulate number of loop during a scan
+    - [Example] :: Computing tanh(v.dot(W) + b) * d where d is binomial
+    - [Example] :: Computing pow(A, k)
+    - [Example] :: Calculating a Polynomial
+    - [Exercise] :: Modify and execute the polynomial example to have the reduction done by scan.
 *** TODO Sparse
     - [Context] :: http://deeplearning.net/software/theano/tutorial/sparse.html
 *** TODO Using the GPU
