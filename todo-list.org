@@ -38,7 +38,7 @@
     - [Example] :: Computing pow(A, k)
     - [Example] :: Calculating a Polynomial
     - [Exercise] :: Modify and execute the polynomial example to have the reduction done by scan.
-*** TODO Sparse
+*** DONE Sparse
     - [Context] :: http://deeplearning.net/software/theano/tutorial/sparse.html
 *** TODO Using the GPU
     - [Context] :: http://deeplearning.net/software/theano/tutorial/using_gpu.html
