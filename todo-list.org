@@ -57,7 +57,7 @@
 *** TODO Understanding Memory Aliasing for Speed and Correctness
     - [Context] :: http://deeplearning.net/software/theano/tutorial/aliasing.html
     - [Example - Borrowing when Constructing Function Objects] :: http://deeplearning.net/software/theano/tutorial/aliasing.html#borrowing-when-constructing-function-objects
-*** TODO How Shape Information is Handled by Theano
+*** DONE How Shape Information is Handled by Theano
     - [Context] :: http://deeplearning.net/software/theano/tutorial/shape_info.html
 *** TODO Debugging Theano: FAQ and Troubleshooting
     - [Context] :: http://deeplearning.net/software/theano/tutorial/debug_faq.html
