@@ -64,7 +64,7 @@
     - [Exmaple - Using Test Values] :: http://deeplearning.net/software/theano/tutorial/debug_faq.html#using-test-values
 *** TODO Dealing with NaNs
     - [Context] :: http://deeplearning.net/software/theano/tutorial/nan_tutorial.html
-*** TODO Profiling Theano function
+*** DONE Profiling Theano function
     - [Context] :: http://deeplearning.net/software/theano/tutorial/profiling.html
 *** TODO Extending Theano
     - [Context] :: http://deeplearning.net/software/theano/tutorial/extending_theano.html
